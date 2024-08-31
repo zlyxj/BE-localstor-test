@@ -2,11 +2,14 @@ function getpoints()
 {
   if(localstorage.x)
   {
-  x=x.times(x)
+    x=x.times(x)
   }
   else{
-    localstorage.x=D(4)
+    localstorage.x=D("4")
   }
   document.getElementById("pts").innerHTML=x
 }
 function resetpoints()
+{
+  x=D("2")
+}
