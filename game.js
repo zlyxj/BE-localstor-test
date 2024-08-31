@@ -1,3 +1,4 @@
+localStorage.setItem("pt",D("2"))
 function getpoints()
 {
   if(localstorage.x)
