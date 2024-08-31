@@ -1,16 +1,10 @@
-localStorage.setItem("x",D("2"))
+let x=new D(2)
 function getpoints()
 {
-  if(localstorage.x)
-  {
-   x=x.times(x)
-  }
-  else{
-    localstorage.x=D("4")
-  }
+   x=x.times(x)  
   document.getElementById("pts").innerHTML=x
 }
 function resetpoints()
 {
-  x=D("2")
+  x=D(2)
 }
