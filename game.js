@@ -1,9 +1,9 @@
-localStorage.setItem("pt",D("2"))
+localStorage.setItem("x",D("2"))
 function getpoints()
 {
   if(localstorage.x)
   {
-    x=x.times(x)
+   x=x.times(x)
   }
   else{
     localstorage.x=D("4")
