@@ -4957,3 +4957,4 @@
   return Decimal;
 
 }));
+const D = Decimal;
