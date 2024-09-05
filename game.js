@@ -1,10 +1,14 @@
-let x=new D(2)
 function getpoints()
 {
-   x=x.times(x)  
-  document.getElementById("pts").innerHTML=x
+   if(localsotrage.x){
+   localstorage.x=localstorage.x.times(localstorage.x)  
+  document.getElementById("pts").innerHTML=localstorage.x
+}
+else{
+   localstorage.x=new D(2)
+}
 }
 function resetpoints()
 {
-  x=D(2)
+  localstorage.x=new D(2)
 }
