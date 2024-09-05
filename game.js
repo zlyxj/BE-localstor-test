@@ -1,14 +1,14 @@
 function getpoints()
 {
-   if(localsotrage.x){
-   localstorage.x=localstorage.x.times(localstorage.x)  
-  document.getElementById("pts").innerHTML=localstorage.x
+   if(localStorage.x){
+   localStorage.x=localStorage.x.times(localStorage.x)  
+  document.getElementById("pts").innerHTML=localStorage.x
 }
 else{
-   localstorage.x=new D(2)
+   localStorage.x=new D(2)
 }
 }
 function resetpoints()
 {
-  localstorage.x=new D(2)
+  localStorage.x=new D(2)
 }
