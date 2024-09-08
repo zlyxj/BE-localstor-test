@@ -1,7 +1,7 @@
 function getpoints()
 {
    if(localStorage.x){
-   localStorage.x=D(localStorage.x).times(D(localStorage.x))  
+   localStorage.x=localStorage.x.times(D(localStorage.x))  
   document.getElementById("pts").innerHTML=localStorage.x
 }
 else{
